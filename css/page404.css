@@ -1,0 +1,101 @@
+.banner_error_404 {
+  text-align: center;
+}
+
+.banner_404 {
+  text-align: center;
+  display: inline-block;
+}
+
+.banner_404 .home_404 {
+  font-size: 18px;
+  color: #ff6600;
+  font-weight: 600;
+}
+
+.banner_404 .page_404 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner_error_404 {
+  width: 100%;
+  background-image: url(../img/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  background-attachment: fixed;
+}
+
+.banner_error_404::after {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgb(255, 116, 0);
+  background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%));
+}
+
+/* =====404= */
+.page_error404 {
+  text-align: center;
+}
+
+.error404 {
+  max-width: 600px;
+  display: inline-block;
+  padding: 40px 0px;
+}
+
+.error404 h1 {
+  font-size: 130px;
+  font-weight: 1000;
+}
+
+.error404 h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.error404 p {
+  font-size: 18px;
+}
+
+.form_text {
+  height: 55px;
+  width: 340px;
+  padding: 12px 120px 12px 25px;
+  border: 1px solid #c3bdbd;
+  border-radius: 8px;
+  color: rgba(161, 158, 158, 0.848);
+  background-color: #f7f7f7;
+  margin-right: 20px;
+}
+
+.btn_search {
+  width: 139px;
+  height: 55px;
+  background-color: #ff6600;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  padding: 0 40px;
+  font-weight: 600;
+  color: #f7f7f7;
+}
+
+.btn_search:hover {
+  background-color: #fb7a24;
+}
+
+.error404 a,
+span {
+  font-weight: 600;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 0;
+}
