@@ -18,16 +18,6 @@ getElement(".header_navbar").addEventListener("click", () => {
     }
 })
 
-
-//DarkTheme
-let darktheme = document.querySelector("body");
-let darksearch = document.querySelector(".header_right input");
-let darkmail = document.querySelector(".footer_content input");
-document.getElementById("moon").onclick = function () {
-    darktheme.classList.toggle("dark");
-    darksearch.classList.toggle("dark-search");
-    darkmail.classList.toggle("dark-mail");
-}
 document.querySelector("footer .btn-orange").onclick = (event) => {
     event.preventDefault();
     window.open("mailto:boithanh01694@gmail.com, nguyenquoctuong@gmail.com, dangtrunghieu@gmail.com?subject=I%20Want%20to%20Subscribe%20Now%20please&body=Plese%20tell%20me%20why??");

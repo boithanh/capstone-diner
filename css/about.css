@@ -11,17 +11,14 @@ body a {
   text-decoration: none;
 }
 
-.container {
+#about .container {
   width: 100%;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 40px;
+  padding-left: 40px;
   margin-right: auto;
   margin-left: auto;
 }
 
-body img {
-  width: 100%;
-}
 
 body.dark {
   background-color: #232220;
@@ -600,6 +597,18 @@ footer .footer_bottom p {
 
   footer .footer_item:first-child {
     padding-right: 12px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .skills .container .skills_images {
+    display: block;
+  }
+
+  .skills .container .skills_images img {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
   }
 }
 
