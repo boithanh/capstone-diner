@@ -3,10 +3,18 @@
 
 <head>
   <title>Diner</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon.png" />
   <!-- Required meta tags -->
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name=" apple-mobile-web-app-title" content="Diner" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+  <link rel="shortcut icon" href="/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <!-- anim CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- font Quicksand  -->
@@ -43,7 +51,7 @@
       <div class="row">
         <div class="header_content">
           <div class="header_left">
-            <a href="index.html">
+            <a id="wayBackHome" href="#">
               <h2 class="text-white">Diner</h2>
             </a>
           </div>
@@ -768,7 +776,8 @@
   <!-- back-to-top js  -->
   <script src="vendor/back-to-top/assets/js/main.js"></script>
   <script src="vendor/back-to-top/assets/js/util.js"></script>
-  <script src="js/index.js"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/menu.js"></script>
 </body>
 
 </html>

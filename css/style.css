@@ -1,3 +1,5 @@
+@import url(./menu.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -5,17 +7,15 @@
   font-family: "Quicksand", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body a {
   text-decoration: none;
 }
 
-/* .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
+
 body img {
   width: 100%;
 }
@@ -42,11 +42,6 @@ body .tieu_de_2 {
   font-weight: 600;
 }
 
-/* .aboutus .content h3 {
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 600;
-} */
 
 .aboutus .content p {
   font-size: 18px;
@@ -707,6 +702,11 @@ header {
   width: 100%;
   z-index: 2;
 }
+
+/* header .container {
+  padding-left: 0;
+  padding-right: 0;
+} */
 
 header h2 {
   font-weight: 700;

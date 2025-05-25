@@ -1,0 +1,15 @@
+.scroll {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%));
+    z-index: 9999;
+
+    .header_content {
+        padding: 10px 0;
+    }
+}
+
+.dark .scroll {
+    background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 80%));
+}
